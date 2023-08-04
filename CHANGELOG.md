@@ -1,3 +1,12 @@
+## [0.1.4](https://github.com/oclif/plugin-test-esm-1/compare/0.1.3...0.1.4) (2023-08-04)
+
+
+### Bug Fixes
+
+* use node options ([5dd7d25](https://github.com/oclif/plugin-test-esm-1/commit/5dd7d2534ef261aafabf38317a58722e06d272d9))
+
+
+
 ## [0.1.3](https://github.com/oclif/plugin-test-esm-1/compare/0.1.2...0.1.3) (2023-08-04)
 
 
