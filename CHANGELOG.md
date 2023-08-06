@@ -1,3 +1,12 @@
+## [0.1.6](https://github.com/oclif/plugin-test-esm-1/compare/0.1.5...0.1.6) (2023-08-06)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/plugin-plugins from 3.1.8 to 3.1.10 ([7d54ca8](https://github.com/oclif/plugin-test-esm-1/commit/7d54ca871a01264dde1298c2398ca54f0a7d61a5))
+
+
+
 ## [0.1.5](https://github.com/oclif/plugin-test-esm-1/compare/0.1.4...0.1.5) (2023-08-06)
 
 
