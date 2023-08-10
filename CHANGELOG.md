@@ -1,3 +1,12 @@
+## [0.2.2](https://github.com/oclif/plugin-test-esm-1/compare/0.2.1...0.2.2) (2023-08-10)
+
+
+### Bug Fixes
+
+* bin/dev shebang ([d28ec46](https://github.com/oclif/plugin-test-esm-1/commit/d28ec4657ef908bdae6a6a6f56071444ceccbf73))
+
+
+
 ## [0.2.1](https://github.com/oclif/plugin-test-esm-1/compare/0.2.0...0.2.1) (2023-08-09)
 
 
