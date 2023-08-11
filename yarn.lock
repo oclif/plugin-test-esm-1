@@ -721,10 +721,10 @@
     "@oclif/core" "^2.9.3"
     fast-levenshtein "^3.0.0"
 
-"@oclif/plugin-plugins@^3.2.3":
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-3.2.3.tgz#0a0a6becddba2bd0d11ad7911c79553465285395"
-  integrity sha512-iP5JBRP2UkUxF5lBg88M8W6B091mDWKldE/GvOj52fK1K0ZylCHn73PPIXL1wzPbkZZiMict3gnhv8EMQvnhXQ==
+"@oclif/plugin-plugins@^3.2.4":
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-3.2.4.tgz#a9389353836df0056cc26a6bc24a6998bc9642ed"
+  integrity sha512-gM24IX0lxOd9abEUBrxTOciEHgH+P14PnG7UnfB0pRnsIbl04EgGkT1bKWbp9zrcHdHxndokoyzVFapzhMMENA==
   dependencies:
     "@oclif/color" "^1.0.4"
     "@oclif/core" "^2.11.8"
