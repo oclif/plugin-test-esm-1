@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/oclif/plugin-test-esm-1/compare/0.2.9...0.3.0) (2023-08-15)
+
+
+### Features
+
+* remove --loader ts-node/esm ([2634101](https://github.com/oclif/plugin-test-esm-1/commit/2634101581b567110bd99f7f966db16e61a1fca1))
+
+
+
 ## [0.2.9](https://github.com/oclif/plugin-test-esm-1/compare/0.2.8...0.2.9) (2023-08-14)
 
 
