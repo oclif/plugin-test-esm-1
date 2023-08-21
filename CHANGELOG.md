@@ -1,3 +1,12 @@
+## [0.4.1](https://github.com/oclif/plugin-test-esm-1/compare/0.4.0...0.4.1) (2023-08-21)
+
+
+### Bug Fixes
+
+* remove type from execute ([4909384](https://github.com/oclif/plugin-test-esm-1/commit/4909384f03fa3385e15a1308487b5df34b8485ef))
+
+
+
 # [0.4.0](https://github.com/oclif/plugin-test-esm-1/compare/0.3.3...0.4.0) (2023-08-21)
 
 
