@@ -2,5 +2,5 @@
 
 (async () => {
   const oclif = await import('@oclif/core')
-  await oclif.execute({type: 'esm', dir: import.meta.url})
+  await oclif.execute({dir: import.meta.url})
 })()
