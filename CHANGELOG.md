@@ -1,3 +1,12 @@
+## [0.4.5](https://github.com/oclif/plugin-test-esm-1/compare/0.4.4...0.4.5) (2023-08-31)
+
+
+### Bug Fixes
+
+* use core v3 ([2804b7c](https://github.com/oclif/plugin-test-esm-1/commit/2804b7c4825156f57dd6eb49d7f2ff07ed800d49))
+
+
+
 ## [0.4.4](https://github.com/oclif/plugin-test-esm-1/compare/0.4.3...0.4.4) (2023-08-29)
 
 
