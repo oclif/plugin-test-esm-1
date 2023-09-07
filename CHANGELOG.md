@@ -1,3 +1,12 @@
+## [0.4.8](https://github.com/oclif/plugin-test-esm-1/compare/0.4.7...0.4.8) (2023-09-07)
+
+
+### Bug Fixes
+
+* update bin/dev.js ([dffa5ab](https://github.com/oclif/plugin-test-esm-1/commit/dffa5ab3b094583c54dd4329e75563ef249d465c))
+
+
+
 ## [0.4.7](https://github.com/oclif/plugin-test-esm-1/compare/0.4.6...0.4.7) (2023-09-03)
 
 
