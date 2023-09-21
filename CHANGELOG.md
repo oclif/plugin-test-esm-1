@@ -1,3 +1,12 @@
+# [0.5.0](https://github.com/oclif/plugin-test-esm-1/compare/0.4.11...0.5.0) (2023-09-21)
+
+
+### Features
+
+* add flags and args ([c006e00](https://github.com/oclif/plugin-test-esm-1/commit/c006e0044f29eb63af79042f8966d16f03788890))
+
+
+
 ## [0.4.11](https://github.com/oclif/plugin-test-esm-1/compare/0.4.10...0.4.11) (2023-09-17)
 
 
