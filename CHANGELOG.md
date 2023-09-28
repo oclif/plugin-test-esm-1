@@ -1,3 +1,12 @@
+## [0.5.2](https://github.com/oclif/plugin-test-esm-1/compare/0.5.1...0.5.2) (2023-09-28)
+
+
+### Bug Fixes
+
+* **deps:** bump get-func-name from 2.0.0 to 2.0.2 ([08f49c0](https://github.com/oclif/plugin-test-esm-1/commit/08f49c0bd88a2c8dc4388f165336318593894f3e))
+
+
+
 ## [0.5.1](https://github.com/oclif/plugin-test-esm-1/compare/0.5.0...0.5.1) (2023-09-24)
 
 
