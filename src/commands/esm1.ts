@@ -12,7 +12,7 @@ export default class ESM1 extends Command {
       default: 'simple string default',
     }),
     defaultFnString: Flags.string({
-      default: async () => Promise.resolve('async fn default'),
+      default: async () => 'async fn default',
     }),
   }
 
@@ -22,7 +22,7 @@ export default class ESM1 extends Command {
       default: 'simple string default',
     }),
     defaultFnArg: Args.string({
-      default: async () => Promise.resolve('async fn default'),
+      default: async () => 'async fn default',
     }),
   }
 
