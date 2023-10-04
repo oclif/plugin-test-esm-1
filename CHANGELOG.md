@@ -1,3 +1,12 @@
+# [0.6.0](https://github.com/oclif/plugin-test-esm-1/compare/0.5.4...0.6.0) (2023-10-04)
+
+
+### Features
+
+* force release ([7a54cff](https://github.com/oclif/plugin-test-esm-1/commit/7a54cfff4f8c979f18a33ffc45c0e4e09dcc9055))
+
+
+
 ## [0.5.4](https://github.com/oclif/plugin-test-esm-1/compare/0.5.3...0.5.4) (2023-10-01)
 
 
