@@ -35,7 +35,7 @@
     "mocha": "^10",
     "oclif": "^3.17.2",
     "shx": "^0.3.4",
-    "ts-node": "^10.9.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   },
   "oclif": {
