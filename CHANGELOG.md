@@ -1,3 +1,12 @@
+## [0.7.1](https://github.com/oclif/plugin-test-esm-1/compare/0.7.0...0.7.1) (2024-02-28)
+
+
+### Bug Fixes
+
+* use correct export path ([50327d7](https://github.com/oclif/plugin-test-esm-1/commit/50327d7e4506d0427a34f852efd804aa564ec99c))
+
+
+
 # [0.7.0](https://github.com/oclif/plugin-test-esm-1/compare/0.6.10...0.7.0) (2024-02-28)
 
 
