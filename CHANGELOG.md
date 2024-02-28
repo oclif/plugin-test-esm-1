@@ -1,3 +1,12 @@
+# [0.7.0](https://github.com/oclif/plugin-test-esm-1/compare/0.6.10...0.7.0) (2024-02-28)
+
+
+### Features
+
+* export hooks and commands ([ad46faa](https://github.com/oclif/plugin-test-esm-1/commit/ad46faaf3b893b3f16ada5ef69b24160b0224deb))
+
+
+
 ## [0.6.10](https://github.com/oclif/plugin-test-esm-1/compare/0.6.9...0.6.10) (2024-02-21)
 
 
