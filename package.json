@@ -8,7 +8,6 @@
   },
   "homepage": "https://github.com/oclif/plugin-test-esm-1",
   "license": "MIT",
-  "main": "",
   "repository": "oclif/plugin-test-esm-1",
   "files": [
     "/bin",
@@ -18,8 +17,8 @@
   ],
   "dependencies": {
     "@oclif/core": "^3",
-    "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^3.9.4"
+    "@oclif/plugin-help": "^6",
+    "@oclif/plugin-plugins": "^4"
   },
   "devDependencies": {
     "@oclif/prettier-config": "^0.2.1",
@@ -33,7 +32,7 @@
     "eslint-config-oclif-typescript": "^2.0.1",
     "eslint-config-prettier": "^9.1.0",
     "mocha": "^10",
-    "oclif": "^3.17.2",
+    "oclif": "^4",
     "shx": "^0.3.4",
     "ts-node": "^10.9.2",
     "typescript": "^5"
@@ -73,6 +72,6 @@
     "oclif"
   ],
   "types": "dist/index.d.ts",
-  "exports": "./lib/index.js",
+  "exports": "./dist/index.js",
   "type": "module"
 }
