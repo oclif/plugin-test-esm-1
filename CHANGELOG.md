@@ -1,3 +1,12 @@
+## [0.7.3](https://github.com/oclif/plugin-test-esm-1/compare/0.7.2...0.7.3) (2024-03-04)
+
+
+### Bug Fixes
+
+* upgrade plugin-plugins ([f578e8e](https://github.com/oclif/plugin-test-esm-1/commit/f578e8e70a9510563ef8585608a3a930670fd860))
+
+
+
 ## [0.7.2](https://github.com/oclif/plugin-test-esm-1/compare/0.7.1...0.7.2) (2024-03-03)
 
 
