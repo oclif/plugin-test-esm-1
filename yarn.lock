@@ -1308,11 +1308,11 @@
     fast-levenshtein "^3.0.0"
 
 "@oclif/plugin-plugins@^4":
-  version "4.3.6"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-4.3.6.tgz#60c72c5842452dc6a7636acbc8e0070ab974f5d7"
-  integrity sha512-a8GPZBnoVCBjlCEPgp8R93S9HyxSlGnoCvb6NIhqpVe4bk4DhxB9TongCWWaBvdUqovTbhgOfwxRB06oSe2plA==
+  version "4.3.9"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-4.3.9.tgz#defc94758a57354c13d955bd2fd730d0ee6771f9"
+  integrity sha512-UEZDj5B+goDKivraSyIY0CrDYhH1QYbmyqYs0AjSVaytrBcf5wSxLjg20rOT/R+Ou0glYXbtvY7sN4YFd/7SSw==
   dependencies:
-    "@oclif/core" "^3.23.0"
+    "@oclif/core" "^3.25.2"
     chalk "^5.3.0"
     debug "^4.3.4"
     npm "10.5.0"
