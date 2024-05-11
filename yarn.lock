@@ -2238,24 +2238,17 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node@*", "@types/node@^20.12.4":
-  version "20.12.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.12.5.tgz#74c4f31ab17955d0b5808cdc8fd2839526ad00b3"
-  integrity sha512-BD+BjQ9LS/D8ST9p5uqBxghlN+S42iuNxjsUGjeZobe/ciXzk2qb1B6IXc6AnRLS+yFJRpN2IPEHMzwspfDJNw==
-  dependencies:
-    undici-types "~5.26.4"
-
-"@types/node@^16.18.96":
-  version "16.18.96"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.96.tgz#eb0012d23ff53d14d64ec8a352bf89792de6aade"
-  integrity sha512-84iSqGXoO+Ha16j8pRZ/L90vDMKX04QTYMTfYeE1WrjWaZXuchBehGUZEpNgx7JnmlrIHdnABmpjrQjhCnNldQ==
-
-"@types/node@^20.12.7":
+"@types/node@*", "@types/node@^20.12.4", "@types/node@^20.12.7":
   version "20.12.7"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-20.12.7.tgz#04080362fa3dd6c5822061aa3124f5c152cff384"
   integrity sha512-wq0cICSkRLVaf3UGLMGItu/PtdY7oaXaI/RVU+xliKVOtRna3PRY57ZDfztpDL0n11vfymMUnXv8QwYCO7L1wg==
   dependencies:
     undici-types "~5.26.4"
+
+"@types/node@^16.18.97":
+  version "16.18.97"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.97.tgz#d7926a8030f0d714d555b4550c0cc7731495cfe5"
+  integrity sha512-4muilE1Lbfn57unR+/nT9AFjWk0MtWi5muwCEJqnOvfRQDbSfLCUdN7vCIg8TYuaANfhLOV85ve+FNpiUsbSRg==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
