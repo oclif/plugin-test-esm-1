@@ -18,7 +18,7 @@ $ npm install -g @oclif/plugin-test-esm-1
 $ esm1 COMMAND
 running command...
 $ esm1 (--version)
-@oclif/plugin-test-esm-1/0.7.17 linux-x64 node-v18.20.2
+@oclif/plugin-test-esm-1/0.7.18 linux-x64 node-v18.20.2
 $ esm1 --help [COMMAND]
 USAGE
   $ esm1 COMMAND
@@ -31,10 +31,10 @@ USAGE
 * [`esm1 help [COMMAND]`](#esm1-help-command)
 * [`esm1 plugins`](#esm1-plugins)
 * [`esm1 plugins:inspect PLUGIN...`](#esm1-pluginsinspect-plugin)
-* [`esm1 plugins:install PLUGIN...`](#esm1-pluginsinstall-plugin)
-* [`esm1 plugins:link PLUGIN`](#esm1-pluginslink-plugin)
+* [`esm1 plugins install PLUGIN`](#esm1-plugins-install-plugin)
+* [`esm1 plugins link PATH`](#esm1-plugins-link-path)
 * [`esm1 plugins reset`](#esm1-plugins-reset)
-* [`esm1 plugins:uninstall PLUGIN...`](#esm1-pluginsuninstall-plugin)
+* [`esm1 plugins uninstall [PLUGIN]`](#esm1-plugins-uninstall-plugin)
 * [`esm1 plugins update`](#esm1-plugins-update)
 
 ## `esm1 esm1 [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG]`
@@ -53,7 +53,7 @@ GLOBAL FLAGS
   --json  Format output as json.
 ```
 
-_See code: [src/commands/esm1.ts](https://github.com/oclif/plugin-test-esm-1/blob/0.7.17/src/commands/esm1.ts)_
+_See code: [src/commands/esm1.ts](https://github.com/oclif/plugin-test-esm-1/blob/0.7.18/src/commands/esm1.ts)_
 
 ## `esm1 help [COMMAND]`
 
@@ -96,7 +96,7 @@ EXAMPLES
   $ esm1 plugins
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/4.3.10/src/commands/plugins/index.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/index.ts)_
 
 ## `esm1 plugins:inspect PLUGIN...`
 
@@ -123,59 +123,64 @@ EXAMPLES
   $ esm1 plugins inspect myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/4.3.10/src/commands/plugins/inspect.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/inspect.ts)_
 
-## `esm1 plugins:install PLUGIN...`
+## `esm1 plugins install PLUGIN`
 
-Installs a plugin into the CLI.
+Installs a plugin into esm1.
 
 ```
 USAGE
-  $ esm1 plugins install PLUGIN...
+  $ esm1 plugins install PLUGIN... [--json] [-f] [-h] [-s | -v]
 
 ARGUMENTS
   PLUGIN...  Plugin to install.
 
 FLAGS
-  -f, --force    Run yarn install with force flag.
+  -f, --force    Force npm to fetch remote resources even if a local copy exists on disk.
   -h, --help     Show CLI help.
-  -s, --silent   Silences yarn output.
-  -v, --verbose  Show verbose yarn output.
+  -s, --silent   Silences npm output.
+  -v, --verbose  Show verbose npm output.
 
 GLOBAL FLAGS
   --json  Format output as json.
 
 DESCRIPTION
-  Installs a plugin into the CLI.
-  Can be installed from npm or a git url.
+  Installs a plugin into esm1.
+
+  Uses bundled npm executable to install plugins into /home/runner/.local/share/esm1
 
   Installation of a user-installed plugin will override a core plugin.
 
-  e.g. If you have a core plugin that has a 'hello' command, installing a user-installed plugin with a 'hello' command
-  will override the core plugin implementation. This is useful if a user needs to update core plugin functionality in
-  the CLI without the need to patch and update the whole CLI.
-
+  Use the ESM1_NPM_LOG_LEVEL environment variable to set the npm loglevel.
+  Use the ESM1_NPM_REGISTRY environment variable to set the npm registry.
 
 ALIASES
   $ esm1 plugins add
 
 EXAMPLES
-  $ esm1 plugins install myplugin 
+  Install a plugin from npm registry.
 
-  $ esm1 plugins install https://github.com/someuser/someplugin
+    $ esm1 plugins install myplugin
 
-  $ esm1 plugins install someuser/someplugin
+  Install a plugin from a github url.
+
+    $ esm1 plugins install https://github.com/someuser/someplugin
+
+  Install a plugin from a github slug.
+
+    $ esm1 plugins install someuser/someplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/4.3.10/src/commands/plugins/install.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/install.ts)_
 
-## `esm1 plugins:link PLUGIN`
+## `esm1 plugins link PATH`
 
 Links a plugin into the CLI for development.
 
 ```
 USAGE
-  $ esm1 plugins link PLUGIN
+  $ esm1 plugins link PATH [-h] [--install] [-v]
 
 ARGUMENTS
   PATH  [default: .] path to plugin
@@ -197,7 +202,7 @@ EXAMPLES
   $ esm1 plugins link myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/4.3.10/src/commands/plugins/link.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/link.ts)_
 
 ## `esm1 plugins reset`
 
@@ -212,15 +217,15 @@ FLAGS
   --reinstall  Reinstall all plugins after uninstalling.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/4.3.10/src/commands/plugins/reset.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/reset.ts)_
 
-## `esm1 plugins:uninstall PLUGIN...`
+## `esm1 plugins uninstall [PLUGIN]`
 
 Removes a plugin from the CLI.
 
 ```
 USAGE
-  $ esm1 plugins uninstall PLUGIN...
+  $ esm1 plugins uninstall [PLUGIN...] [-h] [-v]
 
 ARGUMENTS
   PLUGIN...  plugin to uninstall
@@ -240,7 +245,7 @@ EXAMPLES
   $ esm1 plugins uninstall myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/4.3.10/src/commands/plugins/uninstall.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/uninstall.ts)_
 
 ## `esm1 plugins update`
 
@@ -258,5 +263,5 @@ DESCRIPTION
   Update installed plugins.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/4.3.10/src/commands/plugins/update.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/update.ts)_
 <!-- commandsstop -->
