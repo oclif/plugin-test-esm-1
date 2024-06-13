@@ -1,3 +1,12 @@
+## [0.8.4](https://github.com/oclif/plugin-test-esm-1/compare/0.8.3...0.8.4) (2024-06-13)
+
+
+### Bug Fixes
+
+* **deps:** bump braces from 3.0.2 to 3.0.3 ([#197](https://github.com/oclif/plugin-test-esm-1/issues/197)) ([05dbb02](https://github.com/oclif/plugin-test-esm-1/commit/05dbb02f85be29bb39559a91d16f782d3a2aeb38))
+
+
+
 ## [0.8.3](https://github.com/oclif/plugin-test-esm-1/compare/0.8.2...0.8.3) (2024-06-10)
 
 
