@@ -1498,9 +1498,9 @@
     fast-levenshtein "^3.0.0"
 
 "@oclif/plugin-plugins@^5":
-  version "5.4.2"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-5.4.2.tgz#6c44176198a4f197c62f0e11d7535c5b7cb1cdbf"
-  integrity sha512-L85hRQJc8/c0l9/io4LqYOeWatq4L4g1tJswXGjlMW8ypxWpunYMnZVH6XxPKMjTPdlBVdkpelSgnJgggRlU7Q==
+  version "5.4.3"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-5.4.3.tgz#576db0e02f0a4960cc15a8d238927756991c7678"
+  integrity sha512-aWFND5XeeOszXCWx3hCSb26FC+vyrclYTBVftfP8328jvisdScIV8hD5+V616aDtqwfNGr2b9DLpwdTVgxvMAA==
   dependencies:
     "@oclif/core" "^4"
     ansis "^3.3.2"
