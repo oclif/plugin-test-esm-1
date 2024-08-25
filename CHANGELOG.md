@@ -1,3 +1,12 @@
+## [0.8.23](https://github.com/oclif/plugin-test-esm-1/compare/0.8.22...0.8.23) (2024-08-25)
+
+
+### Bug Fixes
+
+* **deps:** bump micromatch from 4.0.5 to 4.0.8 ([#251](https://github.com/oclif/plugin-test-esm-1/issues/251)) ([56c931a](https://github.com/oclif/plugin-test-esm-1/commit/56c931aebc3756f59cd1c84b1922a561ebb9e2ba))
+
+
+
 ## [0.8.22](https://github.com/oclif/plugin-test-esm-1/compare/0.8.21...0.8.22) (2024-08-25)
 
 
