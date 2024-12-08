@@ -18,7 +18,7 @@ $ npm install -g @oclif/plugin-test-esm-1
 $ esm1 COMMAND
 running command...
 $ esm1 (--version)
-@oclif/plugin-test-esm-1/0.8.47 linux-x64 node-v18.20.5
+@oclif/plugin-test-esm-1/0.8.48 linux-x64 node-v18.20.5
 $ esm1 --help [COMMAND]
 USAGE
   $ esm1 COMMAND
@@ -53,7 +53,7 @@ GLOBAL FLAGS
   --json  Format output as json.
 ```
 
-_See code: [src/commands/esm1.ts](https://github.com/oclif/plugin-test-esm-1/blob/0.8.47/src/commands/esm1.ts)_
+_See code: [src/commands/esm1.ts](https://github.com/oclif/plugin-test-esm-1/blob/0.8.48/src/commands/esm1.ts)_
 
 ## `esm1 help [COMMAND]`
 
