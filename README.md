@@ -18,7 +18,7 @@ $ npm install -g @oclif/plugin-test-esm-1
 $ esm1 COMMAND
 running command...
 $ esm1 (--version)
-@oclif/plugin-test-esm-1/0.8.48 linux-x64 node-v18.20.5
+@oclif/plugin-test-esm-1/0.8.49 linux-x64 node-v20.18.1
 $ esm1 --help [COMMAND]
 USAGE
   $ esm1 COMMAND
@@ -53,7 +53,7 @@ GLOBAL FLAGS
   --json  Format output as json.
 ```
 
-_See code: [src/commands/esm1.ts](https://github.com/oclif/plugin-test-esm-1/blob/0.8.48/src/commands/esm1.ts)_
+_See code: [src/commands/esm1.ts](https://github.com/oclif/plugin-test-esm-1/blob/0.8.49/src/commands/esm1.ts)_
 
 ## `esm1 help [COMMAND]`
 
@@ -96,7 +96,7 @@ EXAMPLES
   $ esm1 plugins
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.21/src/commands/plugins/index.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.22/src/commands/plugins/index.ts)_
 
 ## `esm1 plugins:inspect PLUGIN...`
 
@@ -123,7 +123,7 @@ EXAMPLES
   $ esm1 plugins inspect myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.21/src/commands/plugins/inspect.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.22/src/commands/plugins/inspect.ts)_
 
 ## `esm1 plugins install PLUGIN`
 
@@ -172,7 +172,7 @@ EXAMPLES
     $ esm1 plugins install someuser/someplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.21/src/commands/plugins/install.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.22/src/commands/plugins/install.ts)_
 
 ## `esm1 plugins link PATH`
 
@@ -203,7 +203,7 @@ EXAMPLES
   $ esm1 plugins link myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.21/src/commands/plugins/link.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.22/src/commands/plugins/link.ts)_
 
 ## `esm1 plugins reset`
 
@@ -218,7 +218,7 @@ FLAGS
   --reinstall  Reinstall all plugins after uninstalling.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.21/src/commands/plugins/reset.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.22/src/commands/plugins/reset.ts)_
 
 ## `esm1 plugins uninstall [PLUGIN]`
 
@@ -246,7 +246,7 @@ EXAMPLES
   $ esm1 plugins uninstall myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.21/src/commands/plugins/uninstall.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.22/src/commands/plugins/uninstall.ts)_
 
 ## `esm1 plugins update`
 
@@ -264,5 +264,5 @@ DESCRIPTION
   Update installed plugins.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.21/src/commands/plugins/update.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.22/src/commands/plugins/update.ts)_
 <!-- commandsstop -->
