@@ -3,5 +3,5 @@ import path from 'node:path'
 process.env.TS_NODE_PROJECT = path.resolve('test/tsconfig.json')
 process.env.NODE_ENV = 'development'
 
-global.oclif = global.oclif || {}
-global.oclif.columns = 80
+globalThis.oclif = globalThis.oclif || {}
+globalThis.oclif.columns = 80
