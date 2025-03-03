@@ -1568,9 +1568,9 @@
     fast-levenshtein "^3.0.0"
 
 "@oclif/plugin-plugins@^5":
-  version "5.4.33"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-5.4.33.tgz#1525bbbc44002516fc05359bf9ac0a63fdd59370"
-  integrity sha512-rGeYqlJ3KghB95b0SAPDTSaV8qtbxIOnH71Qgb+QqdPqKL1iD402DrjmTDT6XpaFVeK04g3XhiB7K3JKjgFABA==
+  version "5.4.34"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-5.4.34.tgz#9cf7555387673f851f937840f143d22adcda7c81"
+  integrity sha512-19sX+tHyR6M24GHbnedqqtk6w9QBgFZoa1y4zPmHf6VYaBeBmMBaq2dsLsdG0zv8LnWxaqguocICoxZTrV9f6A==
   dependencies:
     "@oclif/core" "^4.2.6"
     ansis "^3.14.0"
@@ -1579,7 +1579,7 @@
     npm-package-arg "^11.0.3"
     npm-run-path "^5.3.0"
     object-treeify "^4.0.1"
-    semver "^7.7.0"
+    semver "^7.7.1"
     validate-npm-package-name "^5.0.1"
     which "^4.0.0"
     yarn "^1.22.22"
