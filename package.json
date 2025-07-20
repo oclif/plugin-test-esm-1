@@ -30,7 +30,7 @@
     "chai": "^4",
     "eslint": "^9.31.0",
     "eslint-config-oclif": "^6.0.86",
-    "eslint-config-prettier": "^10.1.5",
+    "eslint-config-prettier": "^10.1.8",
     "mocha": "^10",
     "oclif": "^4",
     "shx": "^0.4.0",
