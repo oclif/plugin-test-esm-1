@@ -29,7 +29,7 @@
     "@types/node": "^16.18.126",
     "chai": "^4",
     "eslint": "^9.39.2",
-    "eslint-config-oclif": "^6.0.129",
+    "eslint-config-oclif": "^6.0.130",
     "eslint-config-prettier": "^10.1.8",
     "mocha": "^10",
     "oclif": "^4",
