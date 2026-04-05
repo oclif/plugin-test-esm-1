@@ -1,3 +1,12 @@
+## [0.8.111](https://github.com/oclif/plugin-test-esm-1/compare/0.8.110...0.8.111) (2026-04-05)
+
+
+### Bug Fixes
+
+* **deps:** bump lodash from 4.17.23 to 4.18.1 ([#572](https://github.com/oclif/plugin-test-esm-1/issues/572)) ([6875560](https://github.com/oclif/plugin-test-esm-1/commit/68755605a1505b4be78154b2332c1af6a096b813))
+
+
+
 ## [0.8.110](https://github.com/oclif/plugin-test-esm-1/compare/0.8.109...0.8.110) (2026-04-05)
 
 
