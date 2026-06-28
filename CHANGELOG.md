@@ -1,3 +1,12 @@
+## [0.8.135](https://github.com/oclif/plugin-test-esm-1/compare/0.8.134...0.8.135) (2026-06-28)
+
+
+### Bug Fixes
+
+* **deps:** bump @sigstore/core from 3.2.0 to 3.2.1 ([#621](https://github.com/oclif/plugin-test-esm-1/issues/621)) ([1650c8a](https://github.com/oclif/plugin-test-esm-1/commit/1650c8aa2a70e7679137922f7bb8ba266eb35486))
+
+
+
 ## [0.8.134](https://github.com/oclif/plugin-test-esm-1/compare/0.8.133...0.8.134) (2026-06-23)
 
 
