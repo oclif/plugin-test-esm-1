@@ -996,9 +996,9 @@
     fast-levenshtein "^3.0.0"
 
 "@oclif/plugin-plugins@^5":
-  version "5.4.86"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-5.4.86.tgz#67c6e8c4a4c459431671bb20dfa4cb4ffe01511b"
-  integrity sha512-znwK8zjnhg/ECQwLW8hhmPd/FBTcg+XhesxZfhpBohfIK934YokoiHJ4qwGb5ccaxQ6xV7ihpfJBy9tcNlkK4Q==
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-5.5.0.tgz#9fefca8e51588d63a58da84bc1006243555cada2"
+  integrity sha512-SzR5SpsDMtNN3GsgLzJk8fBu7IkVe15cvzJlxtblMSlmwvdKOoqMUENTYP7p0v4GEz5PWmQmwyrXS/kTIV1w7A==
   dependencies:
     "@oclif/core" "^4.13.0"
     ansis "^3.17.0"
