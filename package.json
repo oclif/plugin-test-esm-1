@@ -16,14 +16,14 @@
     "/oclif.manifest.json"
   ],
   "dependencies": {
-    "@oclif/core": "^4",
-    "@oclif/plugin-help": "^6",
-    "@oclif/plugin-plugins": "^5"
+    "@oclif/core": "^5.0.1",
+    "@oclif/plugin-help": "^7.0.0",
+    "@oclif/plugin-plugins": "^7.0.1"
   },
   "devDependencies": {
     "@eslint/compat": "^1.4.0",
     "@oclif/prettier-config": "^0.2.1",
-    "@oclif/test": "^4",
+    "@oclif/test": "^5.0.0",
     "@types/chai": "^4",
     "@types/mocha": "^10.0.10",
     "@types/node": "^16.18.126",
@@ -32,10 +32,10 @@
     "eslint-config-oclif": "^6.0.179",
     "eslint-config-prettier": "^10.1.8",
     "mocha": "^10",
-    "oclif": "^4",
+    "oclif": "^6.0.1",
     "shx": "^0.4.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5"
+    "typescript": "^6"
   },
   "oclif": {
     "bin": "esm1",
