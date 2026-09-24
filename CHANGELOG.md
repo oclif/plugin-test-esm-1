@@ -1,3 +1,12 @@
+## [0.8.150](https://github.com/oclif/plugin-test-esm-1/compare/0.8.149...0.8.150) (2026-09-24)
+
+
+### Bug Fixes
+
+* bumping deps (W-24099831) ([77946ac](https://github.com/oclif/plugin-test-esm-1/commit/77946accb1451b87ba21922b531e53326ec81e73))
+
+
+
 ## [0.8.149](https://github.com/oclif/plugin-test-esm-1/compare/0.8.148...0.8.149) (2026-08-16)
 
 
