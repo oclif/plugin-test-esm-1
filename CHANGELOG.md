@@ -1,3 +1,12 @@
+## [0.8.153](https://github.com/oclif/plugin-test-esm-1/compare/0.8.152...0.8.153) (2026-10-09)
+
+
+### Bug Fixes
+
+* **deps:** bump postcss-selector-parser from 7.1.1 to 7.1.6 ([#661](https://github.com/oclif/plugin-test-esm-1/issues/661)) ([a776f79](https://github.com/oclif/plugin-test-esm-1/commit/a776f7983397029cee4b802d99cb3d07fc263e16))
+
+
+
 ## [0.8.152](https://github.com/oclif/plugin-test-esm-1/compare/0.8.151...0.8.152) (2026-10-09)
 
 

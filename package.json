@@ -1,6 +1,6 @@
 {
   "name": "@oclif/plugin-test-esm-1",
-  "version": "0.8.152",
+  "version": "0.8.153",
   "description": "Test ESM plugin",
   "author": "Salesforce",
   "bin": {
