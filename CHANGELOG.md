@@ -1,3 +1,12 @@
+## [0.8.154](https://github.com/oclif/plugin-test-esm-1/compare/0.8.153...0.8.154) (2026-10-09)
+
+
+### Bug Fixes
+
+* **deps:** bump js-yaml from 4.3.1 to 4.3.2 ([#658](https://github.com/oclif/plugin-test-esm-1/issues/658)) ([b4083cc](https://github.com/oclif/plugin-test-esm-1/commit/b4083cc916d6d377dfdfe736f56e9f6fc4a2ea04))
+
+
+
 ## [0.8.153](https://github.com/oclif/plugin-test-esm-1/compare/0.8.152...0.8.153) (2026-10-09)
 
 
