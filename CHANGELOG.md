@@ -1,3 +1,12 @@
+## [0.8.152](https://github.com/oclif/plugin-test-esm-1/compare/0.8.151...0.8.152) (2026-10-09)
+
+
+### Bug Fixes
+
+* **deps:** bump source-map-js from 1.2.1 to 1.2.2 ([#662](https://github.com/oclif/plugin-test-esm-1/issues/662)) ([44de0ca](https://github.com/oclif/plugin-test-esm-1/commit/44de0ca40da7be85add8df0a8721a655b645e058))
+
+
+
 ## [0.8.151](https://github.com/oclif/plugin-test-esm-1/compare/0.8.150...0.8.151) (2026-10-09)
 
 
