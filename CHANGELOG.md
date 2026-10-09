@@ -1,3 +1,12 @@
+## [0.8.151](https://github.com/oclif/plugin-test-esm-1/compare/0.8.150...0.8.151) (2026-10-09)
+
+
+### Bug Fixes
+
+* **deps:** bump undici from 6.28.0 to 6.29.0 ([#660](https://github.com/oclif/plugin-test-esm-1/issues/660)) ([4625c5d](https://github.com/oclif/plugin-test-esm-1/commit/4625c5d843a6572d5c8901036b77928735ec3085))
+
+
+
 ## [0.8.150](https://github.com/oclif/plugin-test-esm-1/compare/0.8.149...0.8.150) (2026-09-24)
 
 
