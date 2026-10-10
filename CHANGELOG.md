@@ -1,3 +1,12 @@
+## [0.8.157](https://github.com/oclif/plugin-test-esm-1/compare/0.8.156...0.8.157) (2026-10-10)
+
+
+### Bug Fixes
+
+* **deps:** bump pacote from 21.5.0 to 21.5.1 ([#650](https://github.com/oclif/plugin-test-esm-1/issues/650)) ([27f70bf](https://github.com/oclif/plugin-test-esm-1/commit/27f70bf21abfcdb20aaf298f99a4704281adebc3))
+
+
+
 ## [0.8.156](https://github.com/oclif/plugin-test-esm-1/compare/0.8.155...0.8.156) (2026-10-10)
 
 
