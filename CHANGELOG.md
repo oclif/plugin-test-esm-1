@@ -1,3 +1,12 @@
+## [0.8.155](https://github.com/oclif/plugin-test-esm-1/compare/0.8.154...0.8.155) (2026-10-10)
+
+
+### Bug Fixes
+
+* **deps:** bump browserslist from 4.24.4 to 4.29.1 ([#657](https://github.com/oclif/plugin-test-esm-1/issues/657)) ([b8c8cdc](https://github.com/oclif/plugin-test-esm-1/commit/b8c8cdc9c760dde9689674b41addab89b9ef0c26))
+
+
+
 ## [0.8.154](https://github.com/oclif/plugin-test-esm-1/compare/0.8.153...0.8.154) (2026-10-09)
 
 
