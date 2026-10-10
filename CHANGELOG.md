@@ -1,3 +1,12 @@
+## [0.8.156](https://github.com/oclif/plugin-test-esm-1/compare/0.8.155...0.8.156) (2026-10-10)
+
+
+### Bug Fixes
+
+* **deps:** bump @humanfs/node from 0.16.6 to 0.16.8 ([#656](https://github.com/oclif/plugin-test-esm-1/issues/656)) ([86b03c2](https://github.com/oclif/plugin-test-esm-1/commit/86b03c26f7e7cb301c0ed97aa7b6015cc56ee684))
+
+
+
 ## [0.8.155](https://github.com/oclif/plugin-test-esm-1/compare/0.8.154...0.8.155) (2026-10-10)
 
 
